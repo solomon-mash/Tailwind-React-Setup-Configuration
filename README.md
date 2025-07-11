@@ -36,3 +36,16 @@ module.exports = {
   plugins: [],
 }
 ```
+#### postcss.config.js is automatically generated no need to modify it
+#### In index.css or your base css file override its content with the following
+```
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+#### Import your index.css in your app.jsx or main.jsx file
+```
+import './index.css'; // Import your main CSS file
+```
+
