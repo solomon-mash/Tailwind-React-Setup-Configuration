@@ -36,7 +36,7 @@ module.exports = {
   plugins: [],
 }
 ```
-#### Postcss.config.js is automatically generated no need to modify it
+#### Note: Postcss.config.js is automatically generated no need to modify it
 #### In index.css or your base css file override its content with the following
 ```
 /* src/index.css */
